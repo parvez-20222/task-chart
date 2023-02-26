@@ -52,7 +52,7 @@ export default function Bar1() {
     }, [])
 
   return (
-    <div>
+    <div >
         <Bar options={chartOptions} data={chartData} />
     </div>
   )

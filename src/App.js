@@ -44,15 +44,16 @@ const [show,setShow] = useState(false)
   return (
     <>
       <div className='container'>
-       <div className="show">
-       <img src="OIP.jpg" height={100} width={100} className='img m-2' alt="Not found" />
-       <div className="d-flex">
-  <div className='main'>
+       <div className="show ">
+     
+      <div className="img"><img src="OIP.jpg" height={100} width={100} className='imgSet m-2' alt="Not found" /></div>
+       <div className=" responsive ">
+  <div className='main '>
   <div className="dropdown">
   <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
+    STOCK
   </button>
-  <ul class="dropdown-menu">
+  <ul className="dropdown-menu">
   <button onClick={()=>{setShow(!show)}} className="mx-2 mb-2  bb"> <li className="dropdown-item bb">  Stock1</li></button>
   <button onClick={()=>{setShow(!show)}} className="mx-2 mb-2 bb"> <li className="dropdown-item bb">  Stock2</li></button>
   <button onClick={()=>{setShow(!show)}} className="mx-2 mb-2 bb"> <li className="dropdown-item bb">  Stock3</li></button>
@@ -71,16 +72,11 @@ const [show,setShow] = useState(false)
         </div>
           <button onClick={()=>{setShow(!show)}} className="mx-2 mb-2 button">Submit</button>
       </div>
-      <h1 id='val' className='mb-2 text-light'>Welcome {val}</h1>
+      <h1 id='val' className='mb-2 text-light h1'>Welcome {val}</h1>
 
-       </div>
+      </div>
        {show && <Bar1/>}
        </div>
-      
-          
-
-    
-
     </>
   )
 }
