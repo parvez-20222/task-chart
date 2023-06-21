@@ -1,4 +1,4 @@
-/* *{
+*{
     margin:0;
     padding:0;
     overflow: hidden;
@@ -14,163 +14,38 @@
    margin-right: 50px;
     width: 10%;
     font-size: 25px;
-} */
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-    /* overflow-y:hidden; */
-/*   background-color:black */
+}
+.first{
+    display: grid;
+    place-items: center;
+}
+.second{
+    width: 40%;
+    display: grid;
+    place-items: center;
+    /* background-color: blanchedalmond; */
+}
+.icon{
+    border: white;
+    font-size: 40px;
+    color: rgb(239, 240, 244);
+    background-color: rgb(25, 25, 27);
+}
+.btn1{
+    margin-right: 40px; ;
+}
+.btn3{
+    margin-left: 40px; ;
+}
+.ww{
+    width: 20%;
+}
+h2{
+color: cadetblue;
+    /* width: 10%;
+    height: 40%;
+    display: grid;
+    place-items: center; */
 }
 
-/* .container{
-  text-align: center;
-}
-.responsive{display: flex;}
-.main{
-	display: flex;
-	margin-left: 32%;
-   
-}
-.button{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-}
-#id{
-    color: white;
-    margin-bottom: 10px;
-}
-.bb{
-    background-color: black;
-    color: white;
-}
-.show{
-    background-color: black;
-} */
-/* .chart{
-    height: 30%;
-} */
-@media screen and (max-width: 425px) and (min-width: 00px) {
-    body {
-      width: 123%;
-    }
-    .container{
-        text-align: center;
-       
-      }
-      .dropdown{
-        margin-bottom: 5px;
-      }
-    .img{
-        margin-left: -180px;
-      }
-     .responsive{
-      margin-left: -180px;
-     }
-     .h1{
-      margin-left: -180px;
-     }
-      .button{
-          background-color: green;
-          border: none;
-          color: white;
-          padding: 10px;
-          border-radius: 10px;
-      }
-      #id{
-          color: white;
-          margin-bottom: 10px;
-      }
-      .bb{
-          background-color: black;
-          color: white;
-      }
-      .show{
-          background-color: black;
-      }
-  }
-  @media screen and (max-width: 768px) and (min-width: 426px) {
-    body {
-      width: 140%;
-    }
-    .container{
-        text-align: center;
-        margin-left: -30px;
-      }
-      .dropdown{
-        margin-bottom: 5px;
-      }
-      .responsive{display: flex;
-        margin-left: -50px;
-    }
-      .main{
-          display: flex;
-          margin-left: 32%; 
-       } 
-      .button{
-          background-color: green;
-          border: none;
-          color: white;
-          padding: 10px;
-          border-radius: 10px;
-      }
-      #id{
-          color: white;
-          margin-bottom: 10px;
-      }
-      .bb{
-          background-color: black;
-          color: white;
-      }
-      .show{
-          background-color: black;
-          width: 110%;
-      }
-  }
-  @media screen and (max-width: 1440px) and (min-width: 769px) {
-    body {
-      width: 140%;
-    }
-    .container{
-        text-align: center;
-        margin-left: -0px;
-      }
-      .dropdown{
-        margin-bottom: 5px;
-      }
-      .responsive{display: flex;
-        /* margin-left: -50px; */
-    }
-      .main{
-          display: flex;
-          margin-left: 32%; 
-       } 
-      .button{
-          background-color: green;
-          border: none;
-          color: white;
-          padding: 10px;
-          border-radius: 10px;
-      }
-      #id{
-          color: white;
-          margin-bottom: 10px;
-      }
-      .bb{
-          background-color: black;
-          color: white;
-      }
-      .show{
-          background-color: black;
-          width: 110%;
-      }
-      .bar{
-        width: 500px;
-        height: 300px;
-        background-color: cadetblue;
-      }
-  }
+
